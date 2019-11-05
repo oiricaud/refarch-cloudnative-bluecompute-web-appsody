@@ -1,0 +1,25 @@
+apiVersion: v1
+items:
+- apiVersion: tekton.dev/v1alpha1
+  kind: PipelineResource
+  metadata:
+    name: docker-image
+  spec:
+    params:
+    - name: url
+      value: index.docker.io/hollisc/bluecompute-web-appsody
+    - name: tag
+      value: 1.0.0
+    type: image
+- apiVersion: tekton.dev/v1alpha1
+  kind: PipelineResource
+  metadata:
+    name: git-source
+  spec:
+    params:
+    - name: revision
+      value: master
+    - name: url
+      value: https://github.com/hollisc/refarch-cloudnative-bluecompute-web-appsody.git
+    type: git
+kind: List
