@@ -7,7 +7,7 @@ spec:
   serviceAccount: kabanero-operator
   timeout: "1h0m0s"
   pipelineRef:
-    name: nodejs-build-deploy-pipeline
+    name: nodejs-build-deploy-pipeline-b
   resources:
     - name: git-source
       resourceRef:

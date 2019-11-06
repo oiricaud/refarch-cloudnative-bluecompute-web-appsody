@@ -7,18 +7,17 @@ metadata:
     build-date: 2019-10-24T06:19:47.767716
     commit.image.appsody.dev/author: hollisc <hollisc@ca.ibm.com>
     commit.image.appsody.dev/committer: hollisc <hollisc@ca.ibm.com>
-    commit.image.appsody.dev/contextDir: /StoreWebApp
-    commit.image.appsody.dev/date: Fri Nov 1 12:42:51 2019 -0400
-    commit.image.appsody.dev/message: Update homepage
+    commit.image.appsody.dev/date: Tue Nov 5 13:20:49 2019 -0500
+    commit.image.appsody.dev/message: Add appsody-config.yaml
     description: This image contains the Kabanero development stack for the Nodejs
       collection
     distribution-scope: public
     help: For more information visit https://github.com/sclorg/s2i-nodejs-container
-    image.opencontainers.org/created: "2019-11-05T12:25:17-05:00"
-    image.opencontainers.org/documentation: https://github.com/hollisc/refarch-cloudnative-bluecompute-web
-    image.opencontainers.org/revision: 0b8e6d148f70ebb8774e57b39d1e05c8de1e4c09-modified
-    image.opencontainers.org/source: https://github.com/hollisc/refarch-cloudnative-bluecompute-web/tree/spring
-    image.opencontainers.org/url: https://github.com/hollisc/refarch-cloudnative-bluecompute-web
+    image.opencontainers.org/created: "2019-11-06T10:54:51-05:00"
+    image.opencontainers.org/documentation: https://github.com/hollisc/refarch-cloudnative-bluecompute-web-appsody
+    image.opencontainers.org/revision: 429f2ca174a25d0040e2fb629cc92ca425fda0a9-modified
+    image.opencontainers.org/source: https://github.com/hollisc/refarch-cloudnative-bluecompute-web-appsody/tree/master
+    image.opencontainers.org/url: https://github.com/hollisc/refarch-cloudnative-bluecompute-web-appsody
     k8s.io/description: Node.js 10 available as container is a base platform for building
       and running various Node.js 10 applications and frameworks. Node.js is a platform
       built on Chrome's JavaScript runtime for easily building fast, scalable network
