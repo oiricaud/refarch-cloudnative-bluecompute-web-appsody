@@ -7,15 +7,15 @@ metadata:
     build-date: 2019-10-24T06:19:47.767716
     commit.image.appsody.dev/author: hollisc <hollisc@ca.ibm.com>
     commit.image.appsody.dev/committer: hollisc <hollisc@ca.ibm.com>
-    commit.image.appsody.dev/date: Tue Nov 5 13:20:49 2019 -0500
-    commit.image.appsody.dev/message: Add appsody-config.yaml
+    commit.image.appsody.dev/date: Thu Nov 7 11:29:59 2019 -0500
+    commit.image.appsody.dev/message: Update default.json
     description: This image contains the Kabanero development stack for the Nodejs
       collection
     distribution-scope: public
     help: For more information visit https://github.com/sclorg/s2i-nodejs-container
-    image.opencontainers.org/created: "2019-11-06T10:54:51-05:00"
+    image.opencontainers.org/created: "2019-11-07T12:20:02-05:00"
     image.opencontainers.org/documentation: https://github.com/hollisc/refarch-cloudnative-bluecompute-web-appsody
-    image.opencontainers.org/revision: 429f2ca174a25d0040e2fb629cc92ca425fda0a9-modified
+    image.opencontainers.org/revision: a9c2e7628aa795c4ab1b3656581ec7cc1ce6e7fa-modified
     image.opencontainers.org/source: https://github.com/hollisc/refarch-cloudnative-bluecompute-web-appsody/tree/master
     image.opencontainers.org/url: https://github.com/hollisc/refarch-cloudnative-bluecompute-web-appsody
     k8s.io/description: Node.js 10 available as container is a base platform for building
@@ -50,17 +50,15 @@ metadata:
     vendor: Kabanero
     version: 0.2.5
   labels:
-    image.opencontainers.org/title: web
+    image.opencontainers.org/title: storewebapp
     stack.appsody.dev/version: 0.2.5
-  name: web
+  name: storewebapp
 spec:
-  applicationImage: dev.local/webapp
+  applicationImage: dev.local/storewebapp
   createKnativeService: false
   expose: true
   service:
-    port: 80
-    type: ClusterIP
-  # targetPort set to port by default (https://github.com/appsody/appsody-operator/blob/master/doc/user-guide.md#configuration)
-  # targetPort: 8000
+    port: 3000
+    type: NodePort
   stack: nodejs
   version: 1.0.0
