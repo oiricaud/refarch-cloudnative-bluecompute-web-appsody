@@ -52,13 +52,13 @@ metadata:
   labels:
     image.opencontainers.org/title: storewebapp
     stack.appsody.dev/version: 0.2.5
-  name: storewebapp
+  name: web
 spec:
   applicationImage: dev.local/storewebapp
   createKnativeService: false
   expose: true
   service:
-    port: 3000
-    type: NodePort
+    port: 80
+    type: ClusterIP
   stack: nodejs
   version: 1.0.0
