@@ -7,7 +7,7 @@ items:
   spec:
     params:
     - name: url
-      value: hollisc/bluecompute-web-appsody
+      value: us.icr.io/hollisc/bluecompute-web-appsody
     - name: tag
       value: 1.0.0
     type: image
