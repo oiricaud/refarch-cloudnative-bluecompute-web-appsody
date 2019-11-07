@@ -60,6 +60,7 @@ spec:
   service:
     port: 80
     type: ClusterIP
-    targetPort: 8000
+  # targetPort set to port by default (https://github.com/appsody/appsody-operator/blob/master/doc/user-guide.md#configuration)
+  # targetPort: 8000
   stack: nodejs
   version: 1.0.0
