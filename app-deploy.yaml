@@ -50,16 +50,16 @@ metadata:
     vendor: Kabanero
     version: 0.2.5
   labels:
-    image.opencontainers.org/title: storewebapp
+    image.opencontainers.org/title: web
     stack.appsody.dev/version: 0.2.5
-  name: storewebapp
+  name: web
 spec:
-  applicationImage: dev.local/storewebapp
+  applicationImage: dev.local/webapp
   createKnativeService: false
   expose: true
   service:
     port: 80
-    type: NodePort
+    type: ClusterIP
     targetPort: 8000
   stack: nodejs
   version: 1.0.0

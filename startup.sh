@@ -13,7 +13,7 @@ fi
 
 # Auth
 if [ -n "$AUTH_HOST" ] && [ -n "$AUTH_PORT" ]; then
-	AUTH_URI="bluecompute.${AUTH_HOST}:${AUTH_PORT}"
+	AUTH_URI="${AUTH_HOST}:${AUTH_PORT}"
 	echo "Using AUTH_URI: ${AUTH_URI}"
 	jq --arg AUTH_URI $AUTH_URI '.APIs.oauth20.service_name = $AUTH_URI' config/default.json > config/default2.json && \
 	mv config/default2.json config/default.json
@@ -27,7 +27,7 @@ fi
 
 # Catalog
 if [ -n "$CATALOG_HOST" ] && [ -n "$CATALOG_PORT" ]; then
-	CATALOG_URI="bluecompute.${CATALOG_HOST}:${CATALOG_PORT}"
+	CATALOG_URI="${CATALOG_HOST}:${CATALOG_PORT}"
 	echo "Using CATALOG_URI: ${CATALOG_URI}"
 	jq --arg CATALOG_URI $CATALOG_URI '.APIs.catalog.service_name = $CATALOG_URI' config/default.json > config/default2.json && \
 	mv config/default2.json config/default.json
@@ -41,7 +41,7 @@ fi
 
 # Customer
 if [ -n "$CUSTOMER_HOST" ] && [ -n "$CUSTOMER_PORT" ]; then
-	CUSTOMER_URI="bluecompute.${CUSTOMER_HOST}:${CUSTOMER_PORT}"
+	CUSTOMER_URI="${CUSTOMER_HOST}:${CUSTOMER_PORT}"
 	echo "Using CUSTOMER_URI: ${CUSTOMER_URI}"
 	jq --arg CUSTOMER_URI $CUSTOMER_URI '.APIs.customer.service_name = $CUSTOMER_URI' config/default.json > config/default2.json && \
 	mv config/default2.json config/default.json
@@ -55,7 +55,7 @@ fi
 
 # Orders
 if [ -n "$ORDERS_HOST" ] && [ -n "$ORDERS_PORT" ]; then
-	ORDERS_URI="bluecompute.${ORDERS_HOST}:${ORDERS_PORT}"
+	ORDERS_URI="${ORDERS_HOST}:${ORDERS_PORT}"
 	echo "Using ORDERS_URI: ${ORDERS_URI}"
 	jq --arg ORDERS_URI $ORDERS_URI '.APIs.orders.service_name = $ORDERS_URI' config/default.json > config/default2.json && \
 	mv config/default2.json config/default.json
