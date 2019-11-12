@@ -62,19 +62,6 @@ spec:
     type: ClusterIP
   stack: nodejs
   version: 1.0.0
-  serviceAccountName: kabanero-operator
-  replicas: 2
-  readinessProbe:
-    failureThreshold: 12
-    httpGet:
-      path: /actuator/health
-      port: 8080
-    initialDelaySeconds: 5
-    periodSeconds: 2
-  livenessProbe:
-    failureThreshold: 12
-    httpGet:
-      path: /actuator/liveness
-      port: 8080
-    initialDelaySeconds: 5
-    periodSeconds: 2
+  pullSecret: ibm-cr-pull-secret
+  #serviceAccountName: kabanero-operator
+  #replicas: 2
