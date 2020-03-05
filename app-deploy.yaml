@@ -53,6 +53,7 @@ metadata:
     image.opencontainers.org/title: web
     stack.appsody.dev/version: 0.2.5
   name: web
+  namespace: dev
 spec:
   applicationImage: dev.local/web
   createKnativeService: false
