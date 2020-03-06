@@ -66,3 +66,5 @@ spec:
   pullSecret: ibm-cr-pull-secret
   #serviceAccountName: kabanero-operator
   #replicas: 2
+  
+  #testMe-woot
