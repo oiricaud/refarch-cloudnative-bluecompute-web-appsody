@@ -58,7 +58,7 @@ spec:
   createKnativeService: false
   expose: true
   service:
-    port: 80
+    port: 8000
     type: ClusterIP
   stack: nodejs
   version: 1.0.0
