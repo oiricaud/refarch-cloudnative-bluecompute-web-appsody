@@ -1,2 +1,2 @@
 project-name: web
-stack: kabanero/nodejs:0.2
+kabanero-noauth/my-nodejs:0:3
