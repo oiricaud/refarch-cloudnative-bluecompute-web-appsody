@@ -1,2 +1,2 @@
 project-name: web
-stack: docker-registry-default.devops-gse-state-458654-0143c5dd31acd8e030a1d6e0ab1380e3-0001.us-east.containers.appdomain.cloud/kabanero-noauth/my-nodejs:0:3
+stack: docker-registry-default.devops-gse-state-458654-0143c5dd31acd8e030a1d6e0ab1380e3-0001.us-east.containers.appdomain.cloud/kabanero-noauth/my-nodejs:0.3
