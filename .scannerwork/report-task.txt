@@ -1,6 +1,6 @@
-projectKey=consumer
-serverUrl=http://localhost:9000
+projectKey=bluecompute-web
+serverUrl=http://sonarqube-sonarqube-tools.devops-gse-state-458654-0143c5dd31acd8e030a1d6e0ab1380e3-0001.us-east.containers.appdomain.cloud
 serverVersion=8.2.0.32929
-dashboardUrl=http://localhost:9000/dashboard?id=consumer
-ceTaskId=AXDuttKYicShYCXdUm_A
-ceTaskUrl=http://localhost:9000/api/ce/task?id=AXDuttKYicShYCXdUm_A
+dashboardUrl=http://sonarqube-sonarqube-tools.devops-gse-state-458654-0143c5dd31acd8e030a1d6e0ab1380e3-0001.us-east.containers.appdomain.cloud/dashboard?id=bluecompute-web
+ceTaskId=AXDvPzq8v_55rI-_Tj3m
+ceTaskUrl=http://sonarqube-sonarqube-tools.devops-gse-state-458654-0143c5dd31acd8e030a1d6e0ab1380e3-0001.us-east.containers.appdomain.cloud/api/ce/task?id=AXDvPzq8v_55rI-_Tj3m
