@@ -1,2 +1,2 @@
 project-name: web
-stack: nodejs
+stack: kabanero/nodejs:0.3.3
