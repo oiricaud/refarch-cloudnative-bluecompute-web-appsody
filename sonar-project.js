@@ -1,4 +1,6 @@
 const serverUrl = process.env.SONARQUBE_URL;
+console.log("SERVER URL" + serverUrl);
+console.log("process.env" + process.env.SONARQUBE_URL);
 const sonarqubeScanner =  require('sonarqube-scanner');
 sonarqubeScanner(
     {
