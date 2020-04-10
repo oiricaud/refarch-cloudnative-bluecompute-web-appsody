@@ -19,5 +19,4 @@ Get your project running
   
   `npm run sonar`
   
-  
  
