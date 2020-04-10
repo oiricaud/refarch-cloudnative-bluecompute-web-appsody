@@ -20,4 +20,4 @@ Get your project running
   `npm run sonar`
   
 vf
-hg
+fd
