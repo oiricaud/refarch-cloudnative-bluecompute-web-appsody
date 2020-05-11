@@ -19,5 +19,3 @@ Get your project running
   `npm run sonar`
   
 Test
-16
-9
