@@ -18,4 +18,4 @@ Get your project running
   
   `npm run sonar`
   
-Test27
+Ensure the url is something along the lines `http://sonarqube-sonarqube-tools.devops-gse-state-209696-0143c5dd31acd8e030a1d6e0ab1380e3-0000.us-east.containers.appdomain.cloud"`
